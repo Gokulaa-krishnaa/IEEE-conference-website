@@ -14,11 +14,12 @@ const Datestoremember = () => {
                         </div>
                         <div className="fpscontent flex justify-center items-center w-full h-full border-l-4 border-gradpink hover:border-gradpurpl -ml-1">
                             
-                            <p className="duration-500 scale-100 hover:scale-105 p-5">
-                                <img src={rightpinimg} className=" w-14 h-18 md:w-20 md:h-24" alt="pinimg" />
-                                <b className="text-lg md:text-2xl ">September 7,2022</b> <br />
-                                <i className="text-md  md:text-xl">Full paper submission</i>
-                            </p>
+                        <p class="duration-500 scale-100 hover:scale-105 p-5">
+                            <img src="/static/media/right pin.ce57bd0f7e76bddd8989.png" class=" w-14 h-18 md:w-20 md:h-24" alt="pinimg"></img>
+                            <s> September 7,2022</s><br></br>
+                            <b class="text-lg md:text-2xl ">September 25,2022 </b> <br></br>
+                            <i class="text-md  md:text-xl">Full paper submission</i>
+                        </p>
                         </div>  
                     </div>
                     <div className="notificationacceptancecover w-full h-1/3 grid grid-cols-2">
@@ -26,8 +27,8 @@ const Datestoremember = () => {
                         <div className="fpscontent flex justify-center items-center w-full h-full border-r-4 border-gradpink hover:border-gradpurple">
                             <p className="duration-500 scale-100 hover:scale-105 p-5">
                                 <img src={leftpinimg} className=" w-14 h-18 md:w-20 md:h-24" alt="pinimg" />
-                                <b className="text-lg md:text-2xl ">September 28,2022</b> <br />
-                                <i className="text-md md:text-xl">Notification Acceptance</i>
+                                <b className="text-lg md:text-2xl ">October 10,2022</b> <br />
+                                <i className="text-md md:text-xl">Acceptance Notification</i>
                                 
                             </p>
                             
@@ -45,9 +46,26 @@ const Datestoremember = () => {
                             
                             <p className="duration-500 scale-100 hover:scale-105 p-5">
                                 <img src={rightpinimg} className=" w-14 h-18 md:w-20 md:h-24" alt="pinimg" />
-                                <b className="text-lg md:text-2xl ">October 5,2022</b> <br />
+                                <b className="text-lg md:text-2xl ">October 15,2022</b> <br />
                                 <i className="text-md md:text-xl">Camera ready Submission</i>
                             </p>
+                        </div>
+                        
+                    </div>
+                    <div className="notificationacceptancecover w-full h-1/3 grid grid-cols-2">
+                        
+                        <div className="fpscontent flex justify-center items-center w-full h-full border-r-4 border-gradpink hover:border-gradpurple">
+                            <p className="duration-500 scale-100 hover:scale-105 p-5">
+                                <img src={leftpinimg} className=" w-14 h-18 md:w-20 md:h-24" alt="pinimg" />
+                                <b className="text-lg md:text-2xl ">November 9,2022</b> <br />
+                                <i className="text-md md:text-xl">Conference</i>
+                                
+                            </p>
+                            
+                            
+                        </div>
+                        <div className="blank w-full h-full ">
+
                         </div>
                     </div>
                 </div>
