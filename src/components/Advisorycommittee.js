@@ -7,10 +7,18 @@ const Advisorycommittee = () => {
     const AC=useRef();
     const toggle = () => {
         AC.current.style.transform = 'rotateY(180deg)';
+        const ncid=document.getElementById("national-committee");
+        const incid=document.getElementById("international-committee");
+        ncid.classList.add("absolute");
+        incid.classList.remove("absolute");
       }
       
     const btoggle = () => {
-        AC.current.style.transform = 'rotateY(360deg)';
+        AC.current.style.transform = 'rotateY(0deg)';
+        const ncid=document.getElementById("national-committee");
+        const incid=document.getElementById("international-committee");
+        ncid.classList.remove("absolute");
+        incid.classList.add("absolute");
     }
     const [nationaladvisorycommittee, setNAC] = useState([
         {committeeName: 'Dr. Bhuvana Ramachandran ', committeeDesignation: 'University of West Florida, USA'},
@@ -76,21 +84,21 @@ const Advisorycommittee = () => {
                 <button className="btn bg-ourpink hover:bg-hoverpink  sm:w-7/12 m-3 p-3 rounded-full text-white text-xs sm:text-sm drop-shadow-xl " onClick={toggle} >NATIONAL ADVISORY COMMITTEE</button>
             </div>
             <div className="committee-container-in mt-10" id="committee-members-id " ref={AC}>
-                <div className="committee-list-container  w-full flex flex-col items-center justify-center absolute" id="international-committee" >
-                        <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 rounded-3xl p-10">
-                            {nationaladvisorycommittee.map((committeeMember)=>(
-                                <li className="w-full international-committee-items flex items-center justify-center  p-5">
-                                    <p className="text-sm sm:text-lg text-center"> 
-                                        <b>  {committeeMember.committeeName} <br /></b>
-                                        <i>  {committeeMember.committeeDesignation} </i> 
-                                    </p>
-                                </li>
-                            ))}
-                        </ul>
+                <div className="committee-list-container  w-full flex flex-col items-center justify-center " id="national-committee" >
+                    <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 rounded-3xl p-10">
+                        {nationaladvisorycommittee.map((committeeMember)=>(
+                            <li className="w-full international-committee-items flex items-center justify-center  p-5">
+                                <p className="text-sm sm:text-lg text-center"> 
+                                    <b>  {committeeMember.committeeName} <br /></b>
+                                    <i>  {committeeMember.committeeDesignation} </i> 
+                                </p>
+                            </li>
+                        ))}
+                    </ul>
                     <Quote />
-                 </div>
+                </div>
             
-            <div className="committee-list-container  w-full flex flex-col items-center justify-center transform-y-180" id="national-committee" >
+            <div className="committee-list-container absolute  w-full flex flex-col items-center justify-center transform-y-180" id="international-committee" >
                 <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 md:grid-cols-4 rounded-3xl p-10">
                     { internationaladvisorycommittee.map((icommitteemember) =>(
                         <li className="w-full international-committee-items flex items-center justify-center  p-5">

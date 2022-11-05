@@ -41,7 +41,7 @@ function Footer() {
 
           <div className="duration-500 scale-100 hover:scale-105 bg-[#aa7ca4] p-5 h-65 w-65 opacity-90 rounded-lg  ">
             <span className="text-white font-roboto-condensed">
-              <p className="font-bold text-lg md:text-xl lg:text-2xl text-center">Conference Chair</p>
+              <p className="font-bold text-lg md:text-xl lg:text-2xl text-center">Program Technical Chair</p>
               <p className=" text-center text-sm md:text-base lg:text-lg font-semibold">Dr B Priya</p>
               <p className="text-sm md:text-base lg:text-lg text-center font-light">Associate Professor, CSE</p>
               <p className="text-sm md:text-base lg:text-lg text-center font-light">Sri Sai Ram Engineering College</p>

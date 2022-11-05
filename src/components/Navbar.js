@@ -1,4 +1,6 @@
 import { useState, useRef } from "react";
+import conferenceschedule from "../images/ICCST'22 Presentation Schedule.pdf"
+
 const Navbar = () => {
 
     const navbar = useRef();
@@ -30,15 +32,15 @@ const Navbar = () => {
         <div >
         <div className="w-full bg-white z-10" ref={navbar} >
                     <div className="hidden pb-3 lg:flex lg:justify-center">
-                            <a href="#aboutinst" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">About</a>
-                            <a href="#committee-side-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Advisory committee</a>
-                            <a href="#topics-of-interest-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Topics Of Interest</a>
-                            <a href="#dates-to-remember-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Timeline</a>
-                            <a href="#guidelines-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Guidelines</a> 
-                            <a href="#speakerid" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Speakers</a>
-                            <a href="#contact-us" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Contact Us</a>
+                            <a href="#aboutinst" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">About</a>
+                            <a href="#committee-side-id" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink"> Advisory committee</a>
+                            <a href="#topics-of-interest-id" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Topics Of Interest</a>
+                            <a href="#dates-to-remember-id" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Timeline</a>
+                            <a href="#guidelines-id" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Guidelines</a> 
+                            <a href="#speakerid" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Speakers</a>
+                            <a href="#contact-us" className="block  whitespace-nowrap sm:mx-2 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Contact Us</a>
 
-                            <a href="#register-id" ><button className='block px-6 py-1 mx-4 mt-3 md:mt-4 text-sm lg:text-lg drop-shadow-2xl  bg-[#331748] hover:bg-hoverpink  text-white rounded-2xl'>REGISTER</button></a>
+                            <a href={conferenceschedule} download><button className='block px-6 py-1 mx-4 mt-3 md:mt-4 text-sm lg:text-lg drop-shadow-2xl  bg-[#331748] hover:bg-hoverpink  text-white rounded-2xl'>GET SCHEDULE</button></a>
                     </div>
         </div>
 
@@ -55,7 +57,7 @@ const Navbar = () => {
                                 </svg>
             </button>  
             <div className='flex w-full'></div>   
-            <a href="#register-id" ><button className='justify-items-end px-8 py-1 text-sm  bg-[#331748] hover:bg-blue-700  text-white rounded-2xl'>REGISTER</button></a>
+            <a href={conferenceschedule} download ><button className='justify-items-end w-5/5 whitespace-nowrap	 px-8 py-2 text-sm  bg-[#331748] hover:bg-blue-700  text-white rounded-2xl'>GET SCHEDULE</button></a>
         </div>
         
         <div className={isActive?'fixed grid justify-items-start w-full h-screen grid-rows-8 top-0 left-0  bg-gradient-to-r from-gradpink/80 to-gradpurple/100 z-20' :'hidden fixed justify-items-start w-full  h-screen grid-rows-8 top-0 left-0  bg-white/80 z-20'}  name="menu" ref={navlist} >

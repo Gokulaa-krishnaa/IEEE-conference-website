@@ -26,7 +26,7 @@ import logo23 from "../images/IEEE STANDARDS FOR COMPUTATIONAL SCIENCE.png"
 
 function Topicsofint() {
   return (
-    <div id="topics-of-interest-id">
+    <div id="topics-of-interest-id" className='mt-14'>
         <div>
             <h1 className= 'duration-500 scale-100 hover:scale-105 text-center py-10'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>TOPICS OF INTEREST</span></h1>
         </div>
