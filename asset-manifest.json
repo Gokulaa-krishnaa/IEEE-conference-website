@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.9f1827c4.css",
-    "main.js": "/static/js/main.0411fbdf.js",
+    "main.js": "/static/js/main.7e96f205.js",
     "static/media/promo sairam.mp4": "/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
+    "static/media/ICCST'22 Presentation Schedule.pdf": "/static/media/ICCST'22 Presentation Schedule.e6663d47be15d82036c8.pdf",
     "static/media/footer2.png": "/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/static/media/header3.57c9f123851ab4f394f1.png",
-    "static/media/ICCST'22 Presentation Schedule.pdf": "/static/media/ICCST'22 Presentation Schedule.22419163e2ecc0e57c76.pdf",
     "static/media/AUGMENTED & VIRTUAL REALITY.png": "/static/media/AUGMENTED & VIRTUAL REALITY.d2ac0baf5a0d44c8843c.png",
     "static/media/elangoprofile.jpg": "/static/media/elangoprofile.a650272f69728b1dfbc8.jpg",
     "static/media/path4.png": "/static/media/path4.dd213611eb90e5e19e57.png",
@@ -49,10 +49,10 @@
     "static/media/ieeelogo.png": "/static/media/ieeelogo.1b8977bb4bfa39bb0273.png",
     "index.html": "/index.html",
     "main.9f1827c4.css.map": "/static/css/main.9f1827c4.css.map",
-    "main.0411fbdf.js.map": "/static/js/main.0411fbdf.js.map"
+    "main.7e96f205.js.map": "/static/js/main.7e96f205.js.map"
   },
   "entrypoints": [
     "static/css/main.9f1827c4.css",
-    "static/js/main.0411fbdf.js"
+    "static/js/main.7e96f205.js"
   ]
 }
