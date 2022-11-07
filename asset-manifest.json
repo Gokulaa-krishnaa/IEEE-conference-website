@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9f1827c4.css",
-    "main.js": "/static/js/main.ca2ed5c2.js",
+    "main.js": "/static/js/main.a78a0ebc.js",
     "static/media/promo sairam.mp4": "/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
     "static/media/footer2.png": "/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/static/media/header3.57c9f123851ab4f394f1.png",
@@ -34,6 +34,7 @@
     "static/media/10.Wearable Computing logo.png": "/static/media/10.Wearable Computing logo.d728b88099309a96f742.png",
     "static/media/keeyokayhoiprofile.jpg": "/static/media/keeyokayhoiprofile.0927cb6cec0f8f5ead6c.jpg",
     "static/media/17.Soft Computing logo.png": "/static/media/17.Soft Computing logo.a1a6628edcca27b4e96b.png",
+    "static/media/senthilprofile.jpg": "/static/media/senthilprofile.31527c476371d92569ac.jpg",
     "static/media/Internet of Things logo.png": "/static/media/Internet of Things logo.d81d215958eb1e161280.png",
     "static/media/4.Fog, Edge and Cloud Computing logo.png": "/static/media/4.Fog, Edge and Cloud Computing logo.5d6796199fd65c58da2e.png",
     "static/media/MOBILE COMPUTING.png": "/static/media/MOBILE COMPUTING.65ee606bb534e09816fc.png",
@@ -45,14 +46,15 @@
     "static/media/Path6402.png": "/static/media/Path6402.938616d6f483d43b17dd.png",
     "static/media/iccstlogo.png": "/static/media/iccstlogo.8268f6eecf22a1746702.png",
     "static/media/gomathiprofile.jpg": "/static/media/gomathiprofile.846f06acbc7f959e39a3.jpg",
+    "static/media/celiaprofile.jpg": "/static/media/celiaprofile.44537ee24f71d832189e.jpg",
     "static/media/9.Data mining and Warehousing logo.png": "/static/media/9.Data mining and Warehousing logo.4f69ec10083ee24baa47.png",
     "static/media/ieeelogo.png": "/static/media/ieeelogo.1b8977bb4bfa39bb0273.png",
     "index.html": "/index.html",
     "main.9f1827c4.css.map": "/static/css/main.9f1827c4.css.map",
-    "main.ca2ed5c2.js.map": "/static/js/main.ca2ed5c2.js.map"
+    "main.a78a0ebc.js.map": "/static/js/main.a78a0ebc.js.map"
   },
   "entrypoints": [
     "static/css/main.9f1827c4.css",
-    "static/js/main.ca2ed5c2.js"
+    "static/js/main.a78a0ebc.js"
   ]
 }
