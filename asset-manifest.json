@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed6e2af6.css",
-    "main.js": "/static/js/main.9a8c4e33.js",
+    "main.css": "/static/css/main.832a35df.css",
+    "main.js": "/static/js/main.4ab1a5a6.js",
     "static/media/promo sairam.mp4": "/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
     "static/media/footer2.png": "/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/static/media/header3.57c9f123851ab4f394f1.png",
@@ -48,13 +48,14 @@
     "static/media/gomathiprofile.jpg": "/static/media/gomathiprofile.846f06acbc7f959e39a3.jpg",
     "static/media/celiaprofile.jpg": "/static/media/celiaprofile.44537ee24f71d832189e.jpg",
     "static/media/9.Data mining and Warehousing logo.png": "/static/media/9.Data mining and Warehousing logo.4f69ec10083ee24baa47.png",
+    "static/media/bhaiiprofile.png": "/static/media/bhaiiprofile.15f8fa044fca444466fc.png",
     "static/media/ieeelogo.png": "/static/media/ieeelogo.1b8977bb4bfa39bb0273.png",
     "index.html": "/index.html",
-    "main.ed6e2af6.css.map": "/static/css/main.ed6e2af6.css.map",
-    "main.9a8c4e33.js.map": "/static/js/main.9a8c4e33.js.map"
+    "main.832a35df.css.map": "/static/css/main.832a35df.css.map",
+    "main.4ab1a5a6.js.map": "/static/js/main.4ab1a5a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed6e2af6.css",
-    "static/js/main.9a8c4e33.js"
+    "static/css/main.832a35df.css",
+    "static/js/main.4ab1a5a6.js"
   ]
 }
